@@ -1,13 +1,447 @@
+html
+{
+  font-size: 100%;
+  
+
+}
+
 body {
+  height:100vh;
+  width:100vw;
+  font-size: 140%;
+ 
+ 
   margin: 0;
+  padding:0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+h1{
+  font-size: 3.5rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.borderwhite
+{
+    box-shadow: 0px 0px 0px 0.7rem white!important;
+    border-radius: 1.1rem!important;
+    
+}
+
+
+.mid
+{
+  margin-top: 9rem!important;
+  margin-bottom:8rem!important ;
+}
+
+
+
+
+
+
+
+/* For extremely small screen devices (595px and below)
+@media only screen and (max-width: 595px) {...}
+
+/* Small screen devices (600px and above) */
+
+
+@media (min-width: 600px) and (max-width: 768px) {
+
+  html {
+    font-size: 77%;
+  
+  }
+
+  .sliders
+  {
+    margin-left: -1.3rem!important;
+  }
+
+  .mid
+{
+  margin-top: 10rem!important;
+  margin-bottom:10rem!important ;
+}
+
+.borderwhite
+{
+    box-shadow: 0px 0px 0px 1.3rem white!important;
+    border-radius: 1.1rem!important;
+    
+}
+
+  .navlink
+  {
+     
+      width: 7.4rem !important;
+      height: 5rem !important;
+     
+  }
+
+
+} 
+
+
+
+
+
+
+/* Medium screen devices (768px and above) */
+@media (min-width: 768px) and (max-width: 889px)
+ {
+  html {
+    font-size: 77%;
+  
+  }
+
+  .mid
+{
+  margin-top: 10rem!important;
+  margin-bottom:10rem!important ;
+}
+.borderwhite
+{
+    box-shadow: 0px 0px 0px 1rem white!important;
+    border-radius: 1.1rem!important;
+    
+}
+
+  .sliders
+  {
+    margin-left: -2rem!important;
+  }
+
+
+  .navlink
+  {
+     
+      width: 7.1rem !important;
+      height: 5rem !important;
+     
+  }
+}
+/* big screen devices (889px and above) */
+
+@media (min-width: 889px) and (max-width: 1068px)
+{
+
+  html {
+    font-size: 77%;
+  
+  }
+  .mid
+{
+  margin-top: 10rem!important;
+  margin-bottom:10rem!important ;
+}
+
+
+
+  .sliders
+  {
+    margin-left: -1rem!important;
+  }
+
+
+  .navlink
+  {
+     
+      width: 7.2rem !important;
+      height: 5rem !important;
+     
+  }
+
+  .borderwhite
+{
+    box-shadow: 0px 0px 0px 1.2rem white!important;
+    border-radius: 1.1rem!important;
+}
+
+
+
+
+}
+
+/* Big screen devices (889px and above) */
+@media (min-width: 1068px) and (max-width: 1290px)
+ {
+
+
+  html {
+    font-size: 77%;
+  
+  }
+
+  .sliders
+  {
+    margin-left: 1rem!important;
+  }
+
+
+
+  .navlink
+{
+   
+    width: 7rem !important;
+    height: 5rem !important;
+   
+}
+.mid
+{
+  margin-top: 10rem!important;
+  margin-bottom:10rem!important ;
+}
+
+.borderwhite
+{
+    box-shadow: 0px 0px 0px 1.2rem white!important;
+    border-radius: 1.1rem!important;
+}
+
+/* 
+.canvas-container 
+{
+  width: 50rem!important;
+  height:30rem!important;
+}
+ .upper-canvas 
+{
+  width: 50rem!important;
+  height:30rem!important;
+}
+
+#preview
+{
+  width: 50rem!important;
+  height:30rem!important;
+} */
+
+
+
+} 
+@media (min-width: 800px) and (max-width: 970px) {
+
+  
+
+  .canvas-container 
+  {
+    width: 40rem!important;
+    height:28rem!important;
+  }
+   .upper-canvas 
+  {
+    width: 40rem!important;
+    height:28rem!important;
+  }
+  
+  #preview
+  {
+    width: 40rem!important;
+    height:28rem!important;
+  } 
+  
+  
+  }
+
+@media (min-width: 970px) and (max-width: 1039px) {
+
+  
+
+  .canvas-container 
+  {
+    width: 45rem!important;
+    height:28rem!important;
+  }
+   .upper-canvas 
+  {
+    width: 45rem!important;
+    height:28rem!important;
+  }
+  
+  #preview
+  {
+    width: 45rem!important;
+    height:28rem!important;
+  } 
+  
+  
+  }
+
+ @media (min-width: 1039px) and (max-width: 1111px) {
+
+  
+
+  .canvas-container 
+  {
+    width: 50rem!important;
+    height:28rem!important;
+  }
+   .upper-canvas 
+  {
+    width: 50rem!important;
+    height:28rem!important;
+  }
+  
+  #preview
+  {
+    width: 50rem!important;
+    height:28rem!important;
+  } 
+  
+  
+  }
+
+/* extra */
+ @media (min-width: 1108px) and (max-width: 1175px) {
+
+  
+
+  .canvas-container 
+  {
+    width: 55rem!important;
+    height:28rem!important;
+  }
+   .upper-canvas 
+  {
+    width: 55rem!important;
+    height:28rem!important;
+  }
+  
+  #preview
+  {
+    width: 55rem!important;
+    height:28rem!important;
+  } 
+  
+  
+  }
+/* //extra */
+ @media (min-width: 1175px) and (max-width: 1244px) {
+
+  
+
+  .canvas-container 
+  {
+    width: 60rem!important;
+    height:28rem!important;
+  }
+   .upper-canvas 
+  {
+    width: 60rem!important;
+    height:28rem!important;
+  }
+  
+  #preview
+  {
+     width: 60rem!important;
+     height:28rem!important;
+  } 
+  
+  
+  }  
+
+/* extra */
+ @media (min-width: 1244px) and (max-width: 1389px)
+  {
+
+  
+
+.canvas-container 
+{
+  width: 65rem!important;
+  height:28rem!important;
+}
+ .upper-canvas 
+{
+  width: 65rem!important;
+  height:28rem!important;
+}
+
+.lower-canvas
+{
+  width: 65rem!important;
+  height:28rem!important;
+} 
+
+
+}  
+
+
+
+/* exttra large screen devices (1290px and above) */
+@media (min-width: 1290px) and (max-width: 1496px) {
+
+  html {
+    font-size: 77%;
+  
+  }
+
+  .sliders
+  {
+    margin-left: 1rem!important;
+  }
+
+
+
+  .navlink
+{
+   
+    width: 7rem !important;
+    height: 5rem !important;
+   
+}
+.mid
+{
+  margin-top: 10rem!important;
+  margin-bottom:10rem!important ;
+}
+
+.borderwhite
+{
+    box-shadow: 0px 0px 0px 1.2rem white!important;
+    border-radius: 1.1rem!important;
+}
+
+
+.canvas-container 
+{
+  height:28rem!important;
+}
+ .upper-canvas 
+{
+ 
+  height:28rem!important;
+}
+
+.lower-canvas
+{
+  
+  height:28rem!important;
+} 
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
