@@ -1,0 +1,43 @@
+
+.scrollbar {
+    margin-left: 3rem;
+    float: left;
+    height: 30rem;
+    width: 6.5rem;
+    background: #fff;
+    overflow-y: scroll;
+    margin-bottom: 25rem;
+    height: 50rem;
+    width: 70rem;
+    margin-bottom:5rem;
+  }
+  .force-overflow {
+    min-height: 45rem;
+  }
+  
+  .scrollbar-primary::-webkit-scrollbar {
+    width: 1.2rem;
+    background-color: #F5F5F5;
+    height:20rem;
+    
+  }
+  
+  .scrollbar-primary::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    -webkit-box-shadow*1@"@": inset 0 0 0.6rem rgba(0, 0, 0, 0.1);
+    background-color: #505c8b;
+    height:8rem
+  }
+  
+  .scrollbar-primary {
+    scrollbar-color: #4285F4 #F5F5F5;
+  }
+  
+
+ .InsideCircleCross:hover
+ {
+background-color:red!important;
+
+ }
+
+ 

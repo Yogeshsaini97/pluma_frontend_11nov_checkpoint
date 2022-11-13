@@ -1,0 +1,120 @@
+.container {
+    height: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+  }
+  
+  .containerLogin {
+    border-radius: 5.0rem;
+    height: 47.1rem;
+    width: 44.2rem;
+    min-width: 45rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3rem 0rem 0rem;
+    position: relative;
+    border: 0.1rem solid black;
+  }
+  
+  .backgroundBlue {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #505c8b;
+    z-index: -1;
+    border-radius: 5.0rem;
+  }
+  
+  .inputAnt {
+    padding: 0.7rem !important;
+    border-radius: 1rem !important;
+    margin: 1.5rem !important;
+    width: 100% !important;
+    border: 0.1rem solid black !important;
+    box-shadow: none !important;
+    border: none;
+    position: relative;
+    top: -2.1rem;
+    
+  }
+  
+  .headingContainer {
+    margin-top: 8%;
+  }
+  
+  .inputContainer {
+    width: 90%;
+  }
+  
+  .heading {
+    height: 4.5rem;
+    margin-left: 2.0rem;
+    color: #505c8b;
+    font-weight: 700;
+    size: 4.0rem;
+  }
+  
+  .acceptButton {
+    size: 1.4rem !important;
+    font-family: Prompt !important;
+    background-color: #ffb8b1 !important;
+    font-weight: 500 !important;
+    border-radius: 1.0rem !important;
+    border: 0rem !important;
+    width: 16rem !important;
+    height: 4rem !important;
+    color: black !important;
+  }
+  
+  .endText {
+    font-size: 1.6rem;
+    font-family: Prompt;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+    padding: 2rem;
+    justify-content: center;
+  }
+  
+
+  .LoginContainer
+  {
+    position: relative;
+    top: 30rem;
+
+  }
+
+  .ant-input
+  {
+    border: none;
+    outline: none;
+    
+    
+
+  }
+
+ 
+
+  #passinput
+  {
+     width:29.8rem;
+  }
+
+  #emailinput
+  {
+    width:31.3rem;
+   
+  }
+
+  .ant-input-password
+  {
+position: relative;
+top:1.2rem;
+  }
