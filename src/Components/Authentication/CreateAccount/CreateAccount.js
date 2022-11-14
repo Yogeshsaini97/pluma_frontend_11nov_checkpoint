@@ -217,7 +217,7 @@ export const CreateAccount = () => {
                 >
                   <div className="haveAccount my-2">
                     <span>Already have a account ? </span>
-                    <Link style={{ color: "#000AFF" }} to="/newLogin">
+                    <Link style={{ color: "#000AFF" }} to="/login">
                       Log in
                     </Link>
                   </div>
